@@ -1,0 +1,9 @@
+Step 1
+    COMPLETE
+
+Step 2
+    COMPLETE
+
+Step 3
++ Look if database is made correctly
++ Send information to database

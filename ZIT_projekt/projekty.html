@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#7600AD">
+
+    <meta name="author" content="David Boček">
+    <meta name="keywords" content="ZIT projekt">
+    <meta property="og:locate" content="cs_CZ">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="st_header.css">
+    <link rel="stylesheet" href="st_footer.css">
+
+    <title>Projekty | BOC0093</title>
+    <meta property="og:title" content="Projekty | BOC0093">
+    <meta property="og:site_name" content="ZIT projekt">
+</head>
+
+
+
+<body>
+    <header>
+        <img src="image/vsb_logo/vsb-fei_logo.png" alt="logo vsb-tuo fei">
+        <div class="navButton"><button id="navButton"> |||</button></div>
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html">Úvodní stránka</a></li>
+                <li><a href="os_prof.html">Osobní profil</a></li>
+                <li><a href="#">Projekt semestru</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="sec_02">
+            <div><h1>PROJEKTY</h1><div></div></div>
+            <img src="image/background_2.jpg" alt="pozadi" class="img_sec">
+        </section>
+
+        <section class="sec">
+            <h2>Projekty</h2>
+            <p>Na této stránce se nachází informace o dvou projektech. Jako první do předmětu <b>Úvodu Do Programování</b> a druhý do předmětu <b>Základy Informačních Technologií</b>.</p>
+        </section>
+
+        <section class="sec">
+            <div class="separator"></div>
+        </section>
+
+        <section class="sec">
+            <h2>UPR projekt - TOWER DEFENSE</h2>
+            <p>Tento projekt se programuje v programovacím jazyce C s knihovnou SDL 2 a tudíž nelze použít žádné vývojové prostředí jako je např. Godot a tak se celá hra bude dělat v textovém editoru VS code. Hra je vyvájená na subsystému Ubuntu neboli WSL Ubuntu ve Windowsu 11 a to zdůvodu, že na linuxové distribuci Fedora daná SDL knihovna je problémová a nachází se tam problém s nefunkčními #include soubory.</p>
+            <p>Danná hra je rozdělena do dvou primárních souborů jako aplikací a to do knihovny tower_lib.h a do hlavního souboru main.c. Veškerá deklarace funkcí či datových typů nebo i ostatních knihoven se bude nacházet v tower_lib.h, ale samotný program se bude nacházet v main.c, který akorát volá vešeré funkce či deklaroané datové typy z této knihovny.</p>
+            <img class="sec_img" src="image/tower_defense.png" alt="tower_defense_obr">
+        </section>
+
+        <section class="sec">
+            <div class="separator"></div>
+        </section>
+
+        <section class="sec">
+            <h2>ZIT projekt - WEBOVÁ STRÁNKA</h2>
+            <p>Projekt lze stáhnout <a href="boc0093.zip" target="_blank">ZDE</a></p>
+            <p>Tento projekt se vyvájí ve vývojovém prostředí VS code a to s jazyky JavaScript, CSS3 a HTML5. V tomto projektu nejsou použité žádné API či jakékoliv jiné frameworky. Celý projekt je dělaný ručně. Teda až na JS neboť neumím v tomto jazyce programovat a tak využiji už starší kód z bývalých projektů.</p>
+            <p>Jako první se v projektu udělalo logo, poté header a footer pro počítačové rozhraní. Poté se udělal text a zbytek designu. Pak se udělalo header menu pro mobilní zařízení. Poté se dodělal obsach veškerých dalších stránek a ty se taktéž přizpůsobili mobilním zařízením. Po té se šlo k nahrání projektu na homel.vsb.cz a debugování grafických chyb pomocí 3 různých zařízení a opravování chyb textu.</p>
+            <img class="sec_img" src="image/vscode_web.png" alt="projekt_zit_obr">
+            <div style="width: 1rem;height: 1rem;"></div>
+            <img class="sec_img" src="image/zit_projekt_web.png" alt="projekt_zit_obr">
+        </section>
+
+        <div style="width: 1rem;height: 5rem;"></div>
+    </main>
+    
+
+    <div id="white_space"></div>
+    <footer>
+        <div id="div01"></div>
+        <span><a target="_blank" href="https://www.fei.vsb.cz/cs/index.html">VŠB-TUO FEI</a></span>
+        <div id="div02"></div>
+        <span>&copy; BOC0093 2025 - ZIT Projekt<br></span>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
