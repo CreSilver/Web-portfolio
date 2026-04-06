@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(220, 220, 220);
+}
+.button{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.text_input{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+}
+.form_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form_div div{
+    max-width: 35rem;
+    background: rgb(248, 248, 248);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 1rem 1rem 0 1rem;
+    border-radius: 1rem;
+}
+.margin-top{margin-top: -0.75rem;}
+.margin_topdown{margin-top: 2rem;}
+
+
+
+header{background: rgb(137, 91, 206);}
+main{flex: 1;}
+footer{background: rgb(137, 91, 206); height: 1rem;}
+
+
+
+main section .sec{
+    display: flex;
+    justify-content: center;}
+.GameBox{
+    margin: 0 1rem 0 1rem;
+    background: rgb(241, 241, 241);
+    display: flex;
+    width: 35rem;
+    height: 10rem;
+    border-radius: 0.8rem;
+}
+.GameBox_space{
+    height: 8rem; 
+    width: 0.25rem; 
+    background-color: black;
+    margin-top: 1rem;}
+.GameBox h3{margin: auto;}
+.GameBox_inside{
+    margin: auto;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+.GameBox_inside a{
+    text-decoration: none;
+    color: black;
+    background: rgb(137, 91, 206);
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+    transition: all 0.3s;
+}
+.GameBox_inside .buttom{padding-top: 1rem;}
+.GameBox_inside a:hover{
+    background: rgb(61, 40, 92);
+    color: rgb(220, 220, 220);
+}
