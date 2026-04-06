@@ -33,8 +33,8 @@ Instalace se liší dle toho co používáte za systém.
 
     - Pro použití dockeru je potřeba nainstalovat do něj PHP, MySQL a Adminer
     - Veškeré tyto věci se nainstalují př aplikování jednoho příkazu 
-    >[!IMPORTANT]
-    >Jde o dočasné řešení a nebo to může být využito jako vlastní funkce, ale bacha na databázi, základně používá root s heslem 0000 což je bezpečnostní riziko
+    > [!IMPORTANT]
+    > Jde o dočasné řešení a nebo to může být využito jako vlastní funkce, ale bacha na databázi, základně používá root s heslem 0000 což je bezpečnostní riziko
     ```
     sudo docker network create php-server
     # MySQL
