@@ -19,4 +19,4 @@ Instalace se liší dle toho co používáte za systém.
 
 1. Serverové aplikace jako WampServer
 
- - - Do složky www se nahraje složka Source
+   - Do složky www se nahraje složka Source
